@@ -1,0 +1,41 @@
+#title{
+    color: darkblue;
+    text-align: center;
+    text-align: center;
+}
+
+#picture-container{
+    border: 5px solid black;
+    /*height: 400px;*/
+    width: 400px;
+    /*background: black;*/
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#image{
+    width: 100%;
+}
+
+#picture_css{
+    width: 400px;
+    height: 500px;
+    background-image: url(../Images/Pradeep%20Prasanth%20S.jpg)
+}
+
+#hovers{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../Images/Pradeep%20Prasanth%20S.jpg);
+    background-size: 100%;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+}
+
+#hovers:hover{
+/*    border: 10px solid red;*/
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+}
